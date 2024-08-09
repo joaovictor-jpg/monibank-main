@@ -1,5 +1,7 @@
 <p align="center"> <img src="https://imgur.com/mIBmcEL.png" alt="Javascript: validando formulários"> </p>
 
+<p align="center"> <img src="img/projeto-banco.png" alt="Javascript: Projeto"> </p>
+
 <hr>
 
 <p align="center"> <img src="https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png" alt="Logo da Alura"> </p>
