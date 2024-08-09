@@ -1,5 +1,9 @@
 <p align="center"> <img src="https://imgur.com/mIBmcEL.png" alt="Javascript: validando formulários"> </p>
 
+<hr>
+
+<h3>Imagem do projeto</h3>
+
 <p align="center"> <img src="img/projeto-banco.png" alt="Javascript: Projeto"> </p>
 
 <hr>
