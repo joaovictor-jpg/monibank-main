@@ -2,6 +2,22 @@ import ehUmCpf from './valida-cpf.js';
 import ehMaiorDeIdade from './validaIdade.js';
 
 const camposDoFormulario = document.querySelectorAll('[required]');
+const formulario = document.querySelector('[data-formulario]');
+
+formulario.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const listaResposta = {
+        'nome': e.target.elements['nome'].value,
+        'email': e.target.elements['email'].value,
+        'rg': e.target.elements['rg'].value,
+        'cpf': e.target.elements['cpf'].value,
+        'aniversario': e.target.elements['aniversario'].value,
+        'termos': e.target.elements['termos'].value,
+    }
+
+    localStorage.setItem('user', JSON.stringify(listaResposta));
+    window.location.href = './abrir-conta-form-2.html';
+})
 
 camposDoFormulario.forEach((campo) => {
     campo.addEventListener('blur', () => {
